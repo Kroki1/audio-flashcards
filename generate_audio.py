@@ -1,6 +1,7 @@
 import hashlib
 import io
 import os
+import sys
 from pathlib import Path
 
 import requests
@@ -31,16 +32,16 @@ SPEEDS = {
 
 # Pause durations in milliseconds
 PAUSES_MS = {
-    "after_intro": 1500,        # After episode intro or section transition
-    "after_en_prompt": 600,     # English prompt -> Swedish infinitive
-    "between_forms": 600,       # Infinitive -> Imperative -> Present -> Past -> Perfect
-    "between_verbs": 1800,      # Perfect -> Next verb's English prompt
+    "after_intro": 1500,  # After episode intro or section transition
+    "after_en_prompt": 600,  # English prompt -> Swedish infinitive
+    "between_forms": 600,  # Infinitive -> Imperative -> Present -> Past -> Perfect
+    "between_verbs": 1800,  # Perfect -> Next verb's English prompt
 }
 
 SAMPLE_RATE = 44100
 MP3_BITRATE = "192k"
 
-INPUT_YAML = Path("sample_5_verbs.yaml")
+INPUT_YAML = Path("swedish_verbs_episodes.yaml")  # ("sample_5_verbs.yaml")
 OUTPUT_DIR = Path("output")
 CACHE_DIR = Path(".cache_tts")
 
@@ -153,7 +154,14 @@ def main():
     with open(INPUT_YAML, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
-    for ep in data.get("episodes", []):
+    episodes = data.get("episodes", [])
+    if len(sys.argv) > 1:
+        target_ep = int(sys.argv[1])
+        episodes = [ep for ep in episodes if ep["episode"] == target_ep]
+        if not episodes:
+            raise ValueError(f"Episode {target_ep} not found in {INPUT_YAML}")
+
+    for ep in episodes:
         build_episode(ep)
 
 

@@ -1,0 +1,1030 @@
+episodes:
+
+  # ============================================================================
+  # EPISODE 1: Group 1 (23 verbs)
+  # ============================================================================
+  - episode: 1
+    title: "Episode 1: Group 1 - Long I shift (i - e - i)"
+    intro:
+      lang: "en"
+      text: "Episode 1. Group 1: Irregular verbs with the long I vowel shift: i, e, i."
+    verbs:
+      - en: "to bite"
+        common: true
+        infinitive: { lang: "sv", text: "att bita" }
+        imperative: { lang: "sv", text: "bit!" }
+        present: { lang: "sv", text: "Hunden biter nu." }
+        past: { lang: "sv", text: "Hunden bet igår." }
+        perfect: { lang: "sv", text: "Hunden har bitit idag." }
+
+      - en: "to become"
+        common: true
+        infinitive: { lang: "sv", text: "att bli" }
+        imperative: { lang: "sv", text: "bli!" }
+        present: { lang: "sv", text: "Jag blir glad nu." }
+        past: { lang: "sv", text: "Jag blev glad igår." }
+        perfect: { lang: "sv", text: "Jag har blivit glad idag." }
+
+      - en: "to drive, drift"
+        common: true
+        infinitive: { lang: "sv", text: "att driva" }
+        imperative: { lang: "sv", text: "driv!" }
+        present: { lang: "sv", text: "Jag driver ett företag nu." }
+        past: { lang: "sv", text: "Jag drev ett företag förut." }
+        perfect: { lang: "sv", text: "Jag har drivit ett företag länge." }
+
+      - en: "to glide, slide"
+        common: true
+        infinitive: { lang: "sv", text: "att glida" }
+        imperative: { lang: "sv", text: "glid!" }
+        present: { lang: "sv", text: "Båten glider fram nu." }
+        past: { lang: "sv", text: "Båten gled fram igår." }
+        perfect: { lang: "sv", text: "Båten har glidit fram idag." }
+
+      - en: "to grab, seize"
+        common: true
+        infinitive: { lang: "sv", text: "att gripa" }
+        imperative: { lang: "sv", text: "grip!" }
+        present: { lang: "sv", text: "Polisen griper tjuven nu." }
+        past: { lang: "sv", text: "Polisen grep tjuven igår." }
+        perfect: { lang: "sv", text: "Polisen har gripit tjuven idag." }
+
+      - en: "to pinch, nip"
+        common: false
+        infinitive: { lang: "sv", text: "att knipa" }
+        imperative: { lang: "sv", text: "knip!" }
+        present: { lang: "sv", text: "Skorna kniper nu." }
+        past: { lang: "sv", text: "Skorna knep igår." }
+        perfect: { lang: "sv", text: "Skorna har knipit idag." }
+
+      - en: "to crawl, creep"
+        common: true
+        infinitive: { lang: "sv", text: "att krypa" }
+        imperative: { lang: "sv", text: "kryp!" }
+        present: { lang: "sv", text: "Barnet kryper på golvet nu." }
+        past: { lang: "sv", text: "Barnet kröp på golvet igår." }
+        perfect: { lang: "sv", text: "Barnet har krupit på golvet idag." }
+
+      - en: "to suffer"
+        common: true
+        infinitive: { lang: "sv", text: "att lida" }
+        imperative: { lang: "sv", text: "lid!" }
+        present: { lang: "sv", text: "Jag lider av värmen nu." }
+        past: { lang: "sv", text: "Jag led av värmen igår." }
+        perfect: { lang: "sv", text: "Jag har lidit av värmen idag." }
+
+      - en: "to whine, squeak"
+        common: false
+        infinitive: { lang: "sv", text: "att pipa" }
+        imperative: { lang: "sv", text: "pip!" }
+        present: { lang: "sv", text: "Dörren piper nu." }
+        past: { lang: "sv", text: "Dörren pep igår." }
+        perfect: { lang: "sv", text: "Dörren har pipit idag." }
+
+      - en: "to ride a horse or bike"
+        common: true
+        infinitive: { lang: "sv", text: "att rida" }
+        imperative: { lang: "sv", text: "rid!" }
+        present: { lang: "sv", text: "Jag rider i skogen nu." }
+        past: { lang: "sv", text: "Jag red i skogen igår." }
+        perfect: { lang: "sv", text: "Jag har ridit i skogen idag." }
+
+      - en: "to tear, scratch"
+        common: true
+        infinitive: { lang: "sv", text: "att riva" }
+        imperative: { lang: "sv", text: "riv!" }
+        present: { lang: "sv", text: "Jag river pappret nu." }
+        past: { lang: "sv", text: "Jag rev pappret igår." }
+        perfect: { lang: "sv", text: "Jag har rivit pappret idag." }
+
+      - en: "to shine"
+        common: true
+        infinitive: { lang: "sv", text: "att skina" }
+        imperative: { lang: "sv", text: "skin!" }
+        present: { lang: "sv", text: "Solen skiner nu." }
+        past: { lang: "sv", text: "Solen sken igår." }
+        perfect: { lang: "sv", text: "Solen har skinit idag." }
+
+      - en: "to shit, colloquial"
+        common: true
+        infinitive: { lang: "sv", text: "att skita" }
+        imperative: { lang: "sv", text: "skit!" }
+        present: { lang: "sv", text: "Jag skiter i det nu." }
+        past: { lang: "sv", text: "Jag sket i det igår." }
+        perfect: { lang: "sv", text: "Jag har skitit i det idag." }
+
+      - en: "to scream, shout"
+        common: true
+        infinitive: { lang: "sv", text: "att skrika" }
+        imperative: { lang: "sv", text: "skrik!" }
+        present: { lang: "sv", text: "Han skriker högt nu." }
+        past: { lang: "sv", text: "Han skrek högt igår." }
+        perfect: { lang: "sv", text: "Han har skrikit högt idag." }
+
+      - en: "to write"
+        common: true
+        infinitive: { lang: "sv", text: "att skriva" }
+        imperative: { lang: "sv", text: "skriv!" }
+        present: { lang: "sv", text: "Jag skriver nu." }
+        past: { lang: "sv", text: "Jag skrev igår." }
+        perfect: { lang: "sv", text: "Jag har skrivit idag." }
+
+      - en: "to slide, skid"
+        common: false
+        infinitive: { lang: "sv", text: "att slira" }
+        imperative: { lang: "sv", text: "slira!" }
+        present: { lang: "sv", text: "Bilen slirar på isen nu." }
+        past: { lang: "sv", text: "Bilen slirade på isen igår." }
+        perfect: { lang: "sv", text: "Bilen har slirat på isen idag." }
+
+      - en: "to wear out, tear"
+        common: true
+        infinitive: { lang: "sv", text: "att slita" }
+        imperative: { lang: "sv", text: "slit!" }
+        present: { lang: "sv", text: "Jag sliter hårt nu." }
+        past: { lang: "sv", text: "Jag slet hårt igår." }
+        perfect: { lang: "sv", text: "Jag har slitit hårt idag." }
+
+      - en: "to sneak away"
+        common: false
+        infinitive: { lang: "sv", text: "att smita" }
+        imperative: { lang: "sv", text: "smit!" }
+        present: { lang: "sv", text: "Katten smiter ut nu." }
+        past: { lang: "sv", text: "Katten smet ut igår." }
+        perfect: { lang: "sv", text: "Katten har smitit ut idag." }
+
+      - en: "to step, rise"
+        common: true
+        infinitive: { lang: "sv", text: "att stiga" }
+        imperative: { lang: "sv", text: "stig!" }
+        present: { lang: "sv", text: "Priset stiger nu." }
+        past: { lang: "sv", text: "Priset steg igår." }
+        perfect: { lang: "sv", text: "Priset har stigit idag." }
+
+      - en: "to stroke, iron"
+        common: true
+        infinitive: { lang: "sv", text: "att stryka" }
+        imperative: { lang: "sv", text: "stryk!" }
+        present: { lang: "sv", text: "Jag stryker skjortan nu." }
+        past: { lang: "sv", text: "Jag strök skjortan igår." }
+        perfect: { lang: "sv", text: "Jag har strukit skjortan idag." }
+
+      - en: "to betray, deceive"
+        common: true
+        infinitive: { lang: "sv", text: "att svika" }
+        imperative: { lang: "sv", text: "svik!" }
+        present: { lang: "sv", text: "Han sviker aldrig sina vänner." }
+        past: { lang: "sv", text: "Han svek sina vänner igår." }
+        perfect: { lang: "sv", text: "Han har svikit sina vänner idag." }
+
+      - en: "to be silent"
+        common: true
+        infinitive: { lang: "sv", text: "att tiga" }
+        imperative: { lang: "sv", text: "tig!" }
+        present: { lang: "sv", text: "Jag tiger nu." }
+        past: { lang: "sv", text: "Jag teg igår." }
+        perfect: { lang: "sv", text: "Jag har tigit idag." }
+
+      - en: "to twist, wring"
+        common: true
+        infinitive: { lang: "sv", text: "att vrida" }
+        imperative: { lang: "sv", text: "vrid!" }
+        present: { lang: "sv", text: "Jag vrider om nyckeln nu." }
+        past: { lang: "sv", text: "Jag vred om nyckeln igår." }
+        perfect: { lang: "sv", text: "Jag har vridit om nyckeln idag." }
+
+  # ============================================================================
+  # EPISODE 2: Group 2 (20 verbs)
+  # ============================================================================
+  - episode: 2
+    title: "Episode 2: Group 2 - Short I shift (i - a - u)"
+    intro:
+      lang: "en"
+      text: "Episode 2. Group 2: Irregular verbs with the short I vowel shift: i, a, u."
+    verbs:
+      - en: "to bind, tie"
+        common: true
+        infinitive: { lang: "sv", text: "att binda" }
+        imperative: { lang: "sv", text: "bind!" }
+        present: { lang: "sv", text: "Jag binder skorna nu." }
+        past: { lang: "sv", text: "Jag band skorna igår." }
+        perfect: { lang: "sv", text: "Jag har bundit skorna idag." }
+
+      - en: "to burn"
+        common: true
+        infinitive: { lang: "sv", text: "att brinna" }
+        imperative: { lang: "sv", text: "brinn!" }
+        present: { lang: "sv", text: "Elden brinner nu." }
+        past: { lang: "sv", text: "Elden brann igår." }
+        perfect: { lang: "sv", text: "Elden har brunnit idag." }
+
+      - en: "to burst, break"
+        common: true
+        infinitive: { lang: "sv", text: "att brista" }
+        imperative: { lang: "sv", text: "brist!" }
+        present: { lang: "sv", text: "Isen brister nu." }
+        past: { lang: "sv", text: "Isen brast igår." }
+        perfect: { lang: "sv", text: "Isen har brustit idag." }
+
+      - en: "to drop, tumble"
+        common: false
+        infinitive: { lang: "sv", text: "att dimpa" }
+        imperative: { lang: "sv", text: "dimp!" }
+        present: { lang: "sv", text: "Brevet dimper ner nu." }
+        past: { lang: "sv", text: "Brevet damp ner igår." }
+        perfect: { lang: "sv", text: "Brevet har dumpit ner idag." }
+
+      - en: "to drink"
+        common: true
+        infinitive: { lang: "sv", text: "att dricka" }
+        imperative: { lang: "sv", text: "drick!" }
+        present: { lang: "sv", text: "Jag dricker kaffe nu." }
+        past: { lang: "sv", text: "Jag drack kaffe igår." }
+        perfect: { lang: "sv", text: "Jag har druckit kaffe idag." }
+
+      - en: "to find"
+        common: true
+        infinitive: { lang: "sv", text: "att finna" }
+        imperative: { lang: "sv", text: "finn!" }
+        present: { lang: "sv", text: "Jag finner en lösning nu." }
+        past: { lang: "sv", text: "Jag fann en lösning igår." }
+        perfect: { lang: "sv", text: "Jag har funnit en lösning idag." }
+
+      - en: "to disappear"
+        common: true
+        infinitive: { lang: "sv", text: "att försvinna" }
+        imperative: { lang: "sv", text: "försvinn!" }
+        present: { lang: "sv", text: "Molnen försvinner nu." }
+        past: { lang: "sv", text: "Molnen försvann igår." }
+        perfect: { lang: "sv", text: "Molnen har försvunnit idag." }
+
+      - en: "to have time, catch"
+        common: true
+        infinitive: { lang: "sv", text: "att hinna" }
+        imperative: { lang: "sv", text: "hinn!" }
+        present: { lang: "sv", text: "Jag hinner med tåget nu." }
+        past: { lang: "sv", text: "Jag hann med tåget igår." }
+        perfect: { lang: "sv", text: "Jag har hunnit med tåget idag." }
+
+      - en: "to sound, ring"
+        common: false
+        infinitive: { lang: "sv", text: "att klinga" }
+        imperative: { lang: "sv", text: "klinga!" }
+        present: { lang: "sv", text: "Musiken klingar vackert nu." }
+        past: { lang: "sv", text: "Musiken klingade vackert igår." }
+        perfect: { lang: "sv", text: "Musiken har klingat vackert idag." }
+
+      - en: "to pinch, squeeze"
+        common: false
+        infinitive: { lang: "sv", text: "att klämma" }
+        imperative: { lang: "sv", text: "kläm!" }
+        present: { lang: "sv", text: "Jag klämmer på citronen nu." }
+        past: { lang: "sv", text: "Jag klämde på citronen igår." }
+        perfect: { lang: "sv", text: "Jag har klämt på citronen idag." }
+
+      - en: "to run, flow"
+        common: true
+        infinitive: { lang: "sv", text: "att rinna" }
+        imperative: { lang: "sv", text: "rinn!" }
+        present: { lang: "sv", text: "Vattnet rinner nu." }
+        past: { lang: "sv", text: "Vattnet rann igår." }
+        perfect: { lang: "sv", text: "Vattnet har runnit idag." }
+
+      - en: "to sit"
+        common: true
+        infinitive: { lang: "sv", text: "att sitta" }
+        imperative: { lang: "sv", text: "sitt!" }
+        present: { lang: "sv", text: "Jag sitter här nu." }
+        past: { lang: "sv", text: "Jag satt här igår." }
+        perfect: { lang: "sv", text: "Jag har suttit här idag." }
+
+      - en: "to slip, avoid"
+        common: true
+        infinitive: { lang: "sv", text: "att slippa" }
+        imperative: { lang: "sv", text: "slipp!" }
+        present: { lang: "sv", text: "Jag slipper jobba nu." }
+        past: { lang: "sv", text: "Jag slapp jobba igår." }
+        perfect: { lang: "sv", text: "Jag har sluppit jobba idag." }
+
+      - en: "to spin, purr"
+        common: false
+        infinitive: { lang: "sv", text: "att spinna" }
+        imperative: { lang: "sv", text: "spinn!" }
+        present: { lang: "sv", text: "Katten spinner nu." }
+        past: { lang: "sv", text: "Katten spann igår." }
+        perfect: { lang: "sv", text: "Katten har spunnit idag." }
+
+      - en: "to run"
+        common: true
+        infinitive: { lang: "sv", text: "att springa" }
+        imperative: { lang: "sv", text: "spring!" }
+        present: { lang: "sv", text: "Jag springer snabbt nu." }
+        past: { lang: "sv", text: "Jag sprang snabbt igår." }
+        perfect: { lang: "sv", text: "Jag har sprungit snabbt idag." }
+
+      - en: "to jump, burst"
+        common: false
+        infinitive: { lang: "sv", text: "att spritta" }
+        imperative: { lang: "sv", text: "spritt!" }
+        present: { lang: "sv", text: "Det spritter i benen nu." }
+        past: { lang: "sv", text: "Det spratt i benen igår." }
+        perfect: { lang: "sv", text: "Det har spruttit i benen idag." }
+
+      - en: "to sting, stab"
+        common: true
+        infinitive: { lang: "sv", text: "att sticka" }
+        imperative: { lang: "sv", text: "stick!" }
+        present: { lang: "sv", text: "Myggan sticker nu." }
+        past: { lang: "sv", text: "Myggan stack igår." }
+        perfect: { lang: "sv", text: "Myggan har stuckit idag." }
+
+      - en: "to stink"
+        common: false
+        infinitive: { lang: "sv", text: "att stinka" }
+        imperative: { lang: "sv", text: "stink!" }
+        present: { lang: "sv", text: "Soporna stinker nu." }
+        past: { lang: "sv", text: "Soporna stank igår." }
+        perfect: { lang: "sv", text: "Soporna har stunkit idag." }
+
+      - en: "to force, compel"
+        common: true
+        infinitive: { lang: "sv", text: "att tvinga" }
+        imperative: { lang: "sv", text: "tvinga!" }
+        present: { lang: "sv", text: "Jag tvingar ingen nu." }
+        past: { lang: "sv", text: "Jag tvang ingen igår." }
+        perfect: { lang: "sv", text: "Jag har tvungit ingen idag." }
+
+      - en: "to win"
+        common: true
+        infinitive: { lang: "sv", text: "att vinna" }
+        imperative: { lang: "sv", text: "vinn!" }
+        present: { lang: "sv", text: "Vi vinner matchen nu." }
+        past: { lang: "sv", text: "Vi vann matchen igår." }
+        perfect: { lang: "sv", text: "Vi har vunnit matchen idag." }
+
+  # ============================================================================
+  # EPISODE 3: Group 3 (26 verbs)
+  # ============================================================================
+  - episode: 3
+    title: "Episode 3: Group 3 - U, Y, and JU shift (u / y / ju - ö - u)"
+    intro:
+      lang: "en"
+      text: "Episode 3. Group 3: Irregular verbs with the vowel shift u, y, or ju to ö and u."
+    verbs:
+      - en: "to invite, offer"
+        common: true
+        infinitive: { lang: "sv", text: "att bjuda" }
+        imperative: { lang: "sv", text: "bjud!" }
+        present: { lang: "sv", text: "Jag bjuder på kaffe nu." }
+        past: { lang: "sv", text: "Jag bjöd på kaffe igår." }
+        perfect: { lang: "sv", text: "Jag har bjudit på kaffe idag." }
+
+      - en: "to break"
+        common: true
+        infinitive: { lang: "sv", text: "att bryta" }
+        imperative: { lang: "sv", text: "bryt!" }
+        present: { lang: "sv", text: "Jag bryter brödet nu." }
+        past: { lang: "sv", text: "Jag bröt brödet igår." }
+        perfect: { lang: "sv", text: "Jag har brutit brödet idag." }
+
+      - en: "to dive"
+        common: true
+        infinitive: { lang: "sv", text: "att dyka" }
+        imperative: { lang: "sv", text: "dyk!" }
+        present: { lang: "sv", text: "Jag dyker i vattnet nu." }
+        past: { lang: "sv", text: "Jag dök i vattnet igår." }
+        perfect: { lang: "sv", text: "Jag har dykt i vattnet idag." }
+
+      - en: "to fly"
+        common: true
+        infinitive: { lang: "sv", text: "att flyga" }
+        imperative: { lang: "sv", text: "flyg!" }
+        present: { lang: "sv", text: "Fågeln flyger nu." }
+        past: { lang: "sv", text: "Fågeln flög igår." }
+        perfect: { lang: "sv", text: "Fågeln har flugit idag." }
+
+      - en: "to float, flow"
+        common: true
+        infinitive: { lang: "sv", text: "att flyta" }
+        imperative: { lang: "sv", text: "flyt!" }
+        present: { lang: "sv", text: "Träet flyter på vattnet nu." }
+        past: { lang: "sv", text: "Träet flöt på vattnet igår." }
+        perfect: { lang: "sv", text: "Träet har flutit på vattnet idag." }
+
+      - en: "to freeze"
+        common: true
+        infinitive: { lang: "sv", text: "att frysa" }
+        imperative: { lang: "sv", text: "frys!" }
+        present: { lang: "sv", text: "Jag fryser nu." }
+        past: { lang: "sv", text: "Jag frös igår." }
+        perfect: { lang: "sv", text: "Jag har frusit idag." }
+
+      - en: "to pour, cast"
+        common: false
+        infinitive: { lang: "sv", text: "att gjuta" }
+        imperative: { lang: "sv", text: "gjut!" }
+        present: { lang: "sv", text: "De gjuter betong nu." }
+        past: { lang: "sv", text: "De göt betong igår." }
+        perfect: { lang: "sv", text: "De har gjutit betong idag." }
+
+      - en: "to howl, yell"
+        common: false
+        infinitive: { lang: "sv", text: "att tjuta" }
+        imperative: { lang: "sv", text: "tjut!" }
+        present: { lang: "sv", text: "Vargen tjuter i natten nu." }
+        past: { lang: "sv", text: "Vargen tjöt i natten igår." }
+        perfect: { lang: "sv", text: "Vargen har tjutit i natten idag." }
+
+      - en: "to cleave, split"
+        common: false
+        infinitive: { lang: "sv", text: "att klyva" }
+        imperative: { lang: "sv", text: "klyv!" }
+        present: { lang: "sv", text: "Han klyver ved nu." }
+        past: { lang: "sv", text: "Han klöv ved igår." }
+        perfect: { lang: "sv", text: "Han har kluvit ved idag." }
+
+      - en: "to tie, knot"
+        common: true
+        infinitive: { lang: "sv", text: "att knyta" }
+        imperative: { lang: "sv", text: "knyt!" }
+        present: { lang: "sv", text: "Jag knyter en knut nu." }
+        past: { lang: "sv", text: "Jag knöt en knut igår." }
+        perfect: { lang: "sv", text: "Jag har knutit en knut idag." }
+
+      - en: "to lie, tell falsehood"
+        common: true
+        infinitive: { lang: "sv", text: "att ljuga" }
+        imperative: { lang: "sv", text: "ljug!" }
+        present: { lang: "sv", text: "Han ljuger aldrig." }
+        past: { lang: "sv", text: "Han ljög igår." }
+        perfect: { lang: "sv", text: "Han har ljugit idag." }
+
+      - en: "to sound"
+        common: false
+        infinitive: { lang: "sv", text: "att ljuda" }
+        imperative: { lang: "sv", text: "ljud!" }
+        present: { lang: "sv", text: "Klockan ljuder nu." }
+        past: { lang: "sv", text: "Klockan ljöd igår." }
+        perfect: { lang: "sv", text: "Klockan har ljudit idag." }
+
+      - en: "to obey"
+        common: false
+        infinitive: { lang: "sv", text: "att lyda" }
+        imperative: { lang: "sv", text: "lyd!" }
+        present: { lang: "sv", text: "Hunden lyder nu." }
+        past: { lang: "sv", text: "Hunden löd igår." }
+        perfect: { lang: "sv", text: "Hunden har lydit idag." }
+
+      - en: "to enjoy"
+        common: true
+        infinitive: { lang: "sv", text: "att njuta" }
+        imperative: { lang: "sv", text: "njut!" }
+        present: { lang: "sv", text: "Jag njuter av solen nu." }
+        past: { lang: "sv", text: "Jag njöt av solen igår." }
+        perfect: { lang: "sv", text: "Jag har njutit av solen idag." }
+
+      - en: "to sneeze"
+        common: true
+        infinitive: { lang: "sv", text: "att nysa" }
+        imperative: { lang: "sv", text: "nys!" }
+        present: { lang: "sv", text: "Jag nyser nu." }
+        past: { lang: "sv", text: "Jag nös igår." }
+        perfect: { lang: "sv", text: "Jag har nyst idag." }
+
+      - en: "to smoke, steam"
+        common: false
+        infinitive: { lang: "sv", text: "att ryka" }
+        imperative: { lang: "sv", text: "ryk!" }
+        present: { lang: "sv", text: "Kaffet ryker nu." }
+        past: { lang: "sv", text: "Kaffet rök igår." }
+        perfect: { lang: "sv", text: "Kaffet har rukit idag." }
+
+      - en: "to pull, jerk"
+        common: false
+        infinitive: { lang: "sv", text: "att rycka" }
+        imperative: { lang: "sv", text: "ryck!" }
+        present: { lang: "sv", text: "Han rycker i dörren nu." }
+        past: { lang: "sv", text: "Han ryckte i dörren igår." }
+        perfect: { lang: "sv", text: "Han har ryckt i dörren idag." }
+
+      - en: "to sing"
+        common: true
+        infinitive: { lang: "sv", text: "att sjunga" }
+        imperative: { lang: "sv", text: "sjung!" }
+        present: { lang: "sv", text: "Jag sjunger en sång nu." }
+        past: { lang: "sv", text: "Jag sjöng en sång igår." }
+        perfect: { lang: "sv", text: "Jag har sjungit en sång idag." }
+
+      - en: "to sink"
+        common: true
+        infinitive: { lang: "sv", text: "att sjunka" }
+        imperative: { lang: "sv", text: "sjunk!" }
+        present: { lang: "sv", text: "Skeppet sjunker nu." }
+        past: { lang: "sv", text: "Skeppet sjönk igår." }
+        perfect: { lang: "sv", text: "Skeppet har sjunkit idag." }
+
+      - en: "to shoot"
+        common: true
+        infinitive: { lang: "sv", text: "att skjuta" }
+        imperative: { lang: "sv", text: "skjut!" }
+        present: { lang: "sv", text: "Han skjuter bollen nu." }
+        past: { lang: "sv", text: "Han sköt bollen igår." }
+        perfect: { lang: "sv", text: "Han har skjutit bollen idag." }
+
+      - en: "to boast"
+        common: false
+        infinitive: { lang: "sv", text: "att skryta" }
+        imperative: { lang: "sv", text: "skryt!" }
+        present: { lang: "sv", text: "Han skryter om bilen nu." }
+        past: { lang: "sv", text: "Han skröt om bilen igår." }
+        perfect: { lang: "sv", text: "Han har skrutit om bilen idag." }
+
+      - en: "to sneak"
+        common: true
+        infinitive: { lang: "sv", text: "att smyga" }
+        imperative: { lang: "sv", text: "smyg!" }
+        present: { lang: "sv", text: "Katten smyger i gräset nu." }
+        past: { lang: "sv", text: "Katten smög i gräset igår." }
+        perfect: { lang: "sv", text: "Katten har smugit i gräset idag." }
+
+      - en: "to sniff, blow nose"
+        common: false
+        infinitive: { lang: "sv", text: "att snyta" }
+        imperative: { lang: "sv", text: "snyt!" }
+        present: { lang: "sv", text: "Jag snyter näsan nu." }
+        past: { lang: "sv", text: "Jag snöt näsan igår." }
+        perfect: { lang: "sv", text: "Jag har snutit näsan idag." }
+
+      - en: "to suck"
+        common: true
+        infinitive: { lang: "sv", text: "att suga" }
+        imperative: { lang: "sv", text: "sug!" }
+        present: { lang: "sv", text: "Jag suger på en karamell nu." }
+        past: { lang: "sv", text: "Jag sög på en karamell igår." }
+        perfect: { lang: "sv", text: "Jag har sugit på en karamell idag." }
+
+      - en: "to sup, drink alcohol"
+        common: false
+        infinitive: { lang: "sv", text: "att supa" }
+        imperative: { lang: "sv", text: "sup!" }
+        present: { lang: "sv", text: "De super på festen nu." }
+        past: { lang: "sv", text: "De söp på festen igår." }
+        perfect: { lang: "sv", text: "De har supit på festen idag." }
+
+      - en: "to boil, seethe"
+        common: false
+        infinitive: { lang: "sv", text: "att sjuda" }
+        imperative: { lang: "sv", text: "sjud!" }
+        present: { lang: "sv", text: "Soppan sjuder på spisen nu." }
+        past: { lang: "sv", text: "Soppan sjöd på spisen igår." }
+        perfect: { lang: "sv", text: "Soppan har sjudit på spisen idag." }
+
+  # ============================================================================
+  # EPISODE 4: Group 4 & Group 5 Merged (14 verbs total)
+  # ============================================================================
+  - episode: 4
+    title: "Episode 4: Group 4 (a / å - o - a) and Group 5 (ä / e / i - a - e / u / i)"
+    intro:
+      lang: "en"
+      text: "Episode 4. Part 1, Group 4: Irregular verbs with the vowel shift a or å to o and a."
+    verbs:
+      # --- Group 4 (6 verbs) ---
+      - en: "to pull, draw"
+        common: true
+        infinitive: { lang: "sv", text: "att dra" }
+        imperative: { lang: "sv", text: "dra!" }
+        present: { lang: "sv", text: "Jag drar i repet nu." }
+        past: { lang: "sv", text: "Jag drog i repet igår." }
+        perfect: { lang: "sv", text: "Jag har dragit i repet idag." }
+
+      - en: "to travel, go"
+        common: true
+        infinitive: { lang: "sv", text: "att fara" }
+        imperative: { lang: "sv", text: "far!" }
+        present: { lang: "sv", text: "Vi far till kusten nu." }
+        past: { lang: "sv", text: "Vi for till kusten igår." }
+        perfect: { lang: "sv", text: "Vi har farit till kusten idag." }
+
+      - en: "to dig"
+        common: false
+        infinitive: { lang: "sv", text: "att gräva" }
+        imperative: { lang: "sv", text: "gräv!" }
+        present: { lang: "sv", text: "Jag gräver i trädgården nu." }
+        past: { lang: "sv", text: "Jag grävde i trädgården igår." }
+        perfect: { lang: "sv", text: "Jag har grävt i trädgården idag." }
+
+      - en: "to hit, strike, beat"
+        common: true
+        infinitive: { lang: "sv", text: "att slå" }
+        imperative: { lang: "sv", text: "slå!" }
+        present: { lang: "sv", text: "Jag slår bollen nu." }
+        past: { lang: "sv", text: "Jag slog bollen igår." }
+        perfect: { lang: "sv", text: "Jag har slagit bollen idag." }
+
+      - en: "to take"
+        common: true
+        infinitive: { lang: "sv", text: "att ta" }
+        imperative: { lang: "sv", text: "ta!" }
+        present: { lang: "sv", text: "Jag tar bussen nu." }
+        past: { lang: "sv", text: "Jag tog bussen igår." }
+        perfect: { lang: "sv", text: "Jag har tagit bussen idag." }
+
+      - en: "to weave"
+        common: false
+        infinitive: { lang: "sv", text: "att väva" }
+        imperative: { lang: "sv", text: "väv!" }
+        present: { lang: "sv", text: "Hon väver en matta nu." }
+        past: { lang: "sv", text: "Hon vävde en matta igår." }
+        perfect: { lang: "sv", text: "Hon har vävt en matta idag." }
+
+      # --- Section Transition to Group 5 ---
+      - section_transition:
+          lang: "en"
+          text: "Group 5 starts now. Irregular verbs shifting from ä, e, or i to a, and then e, u, or i."
+
+      # --- Group 5 (8 verbs) ---
+      - en: "to ask, pray"
+        common: true
+        infinitive: { lang: "sv", text: "att be" }
+        imperative: { lang: "sv", text: "be!" }
+        present: { lang: "sv", text: "Jag ber om hjälp nu." }
+        past: { lang: "sv", text: "Jag bad om hjälp igår." }
+        perfect: { lang: "sv", text: "Jag har bett om hjälp idag." }
+
+      - en: "to carry, bear"
+        common: true
+        infinitive: { lang: "sv", text: "att bära" }
+        imperative: { lang: "sv", text: "bär!" }
+        present: { lang: "sv", text: "Jag bär väskan nu." }
+        past: { lang: "sv", text: "Jag bar väskan igår." }
+        perfect: { lang: "sv", text: "Jag har burit väskan idag." }
+
+      - en: "to give"
+        common: true
+        infinitive: { lang: "sv", text: "att ge" }
+        imperative: { lang: "sv", text: "ge!" }
+        present: { lang: "sv", text: "Jag ger dig boken nu." }
+        past: { lang: "sv", text: "Jag gav dig boken igår." }
+        perfect: { lang: "sv", text: "Jag har gett dig boken idag." }
+
+      - en: "to lie, recline"
+        common: true
+        infinitive: { lang: "sv", text: "att ligga" }
+        imperative: { lang: "sv", text: "ligg!" }
+        present: { lang: "sv", text: "Jag ligger i sängen nu." }
+        past: { lang: "sv", text: "Jag låg i sängen igår." }
+        perfect: { lang: "sv", text: "Jag har legat i sängen idag." }
+
+      - en: "to cut"
+        common: true
+        infinitive: { lang: "sv", text: "att skära" }
+        imperative: { lang: "sv", text: "skär!" }
+        present: { lang: "sv", text: "Jag skär brödet nu." }
+        past: { lang: "sv", text: "Jag skar brödet igår." }
+        perfect: { lang: "sv", text: "Jag har skurit brödet idag." }
+
+      - en: "to steal"
+        common: true
+        infinitive: { lang: "sv", text: "att stjäla" }
+        imperative: { lang: "sv", text: "stjäl!" }
+        present: { lang: "sv", text: "Tjuven stjäl cykeln nu." }
+        past: { lang: "sv", text: "Tjuven stal cykeln igår." }
+        perfect: { lang: "sv", text: "Tjuven har stulit cykeln idag." }
+
+      - en: "to starve"
+        common: false
+        infinitive: { lang: "sv", text: "att svälta" }
+        imperative: { lang: "sv", text: "svält!" }
+        present: { lang: "sv", text: "Jag svälter nu." }
+        past: { lang: "sv", text: "Jag svalt igår." }
+        perfect: { lang: "sv", text: "Jag har svultit idag." }
+
+      - en: "to eat"
+        common: true
+        infinitive: { lang: "sv", text: "att äta" }
+        imperative: { lang: "sv", text: "ät!" }
+        present: { lang: "sv", text: "Jag äter middag nu." }
+        past: { lang: "sv", text: "Jag åt middag igår." }
+        perfect: { lang: "sv", text: "Jag har ätit middag idag." }
+
+  # ============================================================================
+  # EPISODE 5: Group 6A - Common Mixed & Irregular Verbs (27 verbs)
+  # ============================================================================
+  - episode: 5
+    title: "Episode 5: Group 6 Part 1 - Essential Mixed & Modal Irregular Verbs"
+    intro:
+      lang: "en"
+      text: "Episode 5. Group 6, Part 1: Essential mixed irregular and modal verbs."
+    verbs:
+      - en: "to be"
+        common: true
+        infinitive: { lang: "sv", text: "att vara" }
+        imperative: { lang: "sv", text: "var!" }
+        present: { lang: "sv", text: "Jag är hemma nu." }
+        past: { lang: "sv", text: "Jag var hemma igår." }
+        perfect: { lang: "sv", text: "Jag har varit hemma idag." }
+
+      - en: "to have"
+        common: true
+        infinitive: { lang: "sv", text: "att ha" }
+        imperative: { lang: "sv", text: "ha!" }
+        present: { lang: "sv", text: "Jag har tid nu." }
+        past: { lang: "sv", text: "Jag hade tid igår." }
+        perfect: { lang: "sv", text: "Jag har haft tid idag." }
+
+      - en: "to do, make"
+        common: true
+        infinitive: { lang: "sv", text: "att göra" }
+        imperative: { lang: "sv", text: "gör!" }
+        present: { lang: "sv", text: "Jag gör läxan nu." }
+        past: { lang: "sv", text: "Jag gjorde läxan igår." }
+        perfect: { lang: "sv", text: "Jag har gjort läxan idag." }
+
+      - en: "to go, walk"
+        common: true
+        infinitive: { lang: "sv", text: "att gå" }
+        imperative: { lang: "sv", text: "gå!" }
+        present: { lang: "sv", text: "Jag går hem nu." }
+        past: { lang: "sv", text: "Jag gick hem igår." }
+        perfect: { lang: "sv", text: "Jag har gått hem idag." }
+
+      - en: "to get, receive, may"
+        common: true
+        infinitive: { lang: "sv", text: "att få" }
+        imperative: { lang: "sv", text: "få!" }
+        present: { lang: "sv", text: "Jag får ett brev nu." }
+        past: { lang: "sv", text: "Jag fick ett brev igår." }
+        perfect: { lang: "sv", text: "Jag har fått ett brev idag." }
+
+      - en: "to see"
+        common: true
+        infinitive: { lang: "sv", text: "att se" }
+        imperative: { lang: "sv", text: "se!" }
+        present: { lang: "sv", text: "Jag ser filmen nu." }
+        past: { lang: "sv", text: "Jag såg filmen igår." }
+        perfect: { lang: "sv", text: "Jag har sett filmen idag." }
+
+      - en: "to stand"
+        common: true
+        infinitive: { lang: "sv", text: "att stå" }
+        imperative: { lang: "sv", text: "stå!" }
+        present: { lang: "sv", text: "Jag står här nu." }
+        past: { lang: "sv", text: "Jag stod här igår." }
+        perfect: { lang: "sv", text: "Jag har stått här idag." }
+
+      - en: "to die"
+        common: true
+        infinitive: { lang: "sv", text: "att dö" }
+        imperative: { lang: "sv", text: "dö!" }
+        present: { lang: "sv", text: "Blomman dör nu." }
+        past: { lang: "sv", text: "Blomman dog igår." }
+        perfect: { lang: "sv", text: "Blomman har dött idag." }
+
+      - en: "to smile"
+        common: true
+        infinitive: { lang: "sv", text: "att le" }
+        imperative: { lang: "sv", text: "le!" }
+        present: { lang: "sv", text: "Jag ler nu." }
+        past: { lang: "sv", text: "Jag log igår." }
+        perfect: { lang: "sv", text: "Jag har lett idag." }
+
+      - en: "to come"
+        common: true
+        infinitive: { lang: "sv", text: "att komma" }
+        imperative: { lang: "sv", text: "kom!" }
+        present: { lang: "sv", text: "Jag kommer nu." }
+        past: { lang: "sv", text: "Jag kom igår." }
+        perfect: { lang: "sv", text: "Jag har kommit idag." }
+
+      - en: "to sleep"
+        common: true
+        infinitive: { lang: "sv", text: "att sova" }
+        imperative: { lang: "sv", text: "sov!" }
+        present: { lang: "sv", text: "Jag sover nu." }
+        past: { lang: "sv", text: "Jag sov igår." }
+        perfect: { lang: "sv", text: "Jag har sovit idag." }
+
+      - en: "to fall"
+        common: true
+        infinitive: { lang: "sv", text: "att falla" }
+        imperative: { lang: "sv", text: "fall!" }
+        present: { lang: "sv", text: "Snön faller nu." }
+        past: { lang: "sv", text: "Snön föll igår." }
+        perfect: { lang: "sv", text: "Snön har fallit idag." }
+
+      - en: "to hold, keep"
+        common: true
+        infinitive: { lang: "sv", text: "att hålla" }
+        imperative: { lang: "sv", text: "håll!" }
+        present: { lang: "sv", text: "Jag håller dörren nu." }
+        past: { lang: "sv", text: "Jag höll dörren igår." }
+        perfect: { lang: "sv", text: "Jag har hållit dörren idag." }
+
+      - en: "to let, sound"
+        common: true
+        infinitive: { lang: "sv", text: "att låta" }
+        imperative: { lang: "sv", text: "låt!" }
+        present: { lang: "sv", text: "Musiken låter bra nu." }
+        past: { lang: "sv", text: "Musiken lät bra igår." }
+        perfect: { lang: "sv", text: "Musiken har låtit bra idag." }
+
+      - en: "to cry, weep"
+        common: true
+        infinitive: { lang: "sv", text: "att gråta" }
+        imperative: { lang: "sv", text: "gråt!" }
+        present: { lang: "sv", text: "Barnet gråter nu." }
+        past: { lang: "sv", text: "Barnet grät igår." }
+        perfect: { lang: "sv", text: "Barnet har gråtit idag." }
+
+      - en: "to say"
+        common: true
+        infinitive: { lang: "sv", text: "att säga" }
+        imperative: { lang: "sv", text: "säg!" }
+        present: { lang: "sv", text: "Jag säger sanningen nu." }
+        past: { lang: "sv", text: "Jag sa sanningen igår." }
+        perfect: { lang: "sv", text: "Jag har sagt sanningen idag." }
+
+      - en: "to lay, put"
+        common: true
+        infinitive: { lang: "sv", text: "att lägga" }
+        imperative: { lang: "sv", text: "lägg!" }
+        present: { lang: "sv", text: "Jag lägger boken här nu." }
+        past: { lang: "sv", text: "Jag la boken här igår." }
+        perfect: { lang: "sv", text: "Jag har lagt boken här idag." }
+
+      - en: "to put, set, sit down"
+        common: true
+        infinitive: { lang: "sv", text: "att sätta" }
+        imperative: { lang: "sv", text: "sätt!" }
+        present: { lang: "sv", text: "Jag sätter mig nu." }
+        past: { lang: "sv", text: "Jag satte mig igår." }
+        perfect: { lang: "sv", text: "Jag har satt mig idag." }
+
+      - en: "to sell"
+        common: true
+        infinitive: { lang: "sv", text: "att sälja" }
+        imperative: { lang: "sv", text: "sälj!" }
+        present: { lang: "sv", text: "Jag säljer bilen nu." }
+        past: { lang: "sv", text: "Jag sålde bilen igår." }
+        perfect: { lang: "sv", text: "Jag har sålt bilen idag." }
+
+      - en: "to choose"
+        common: true
+        infinitive: { lang: "sv", text: "att välja" }
+        imperative: { lang: "sv", text: "välj!" }
+        present: { lang: "sv", text: "Jag väljer kaffe nu." }
+        past: { lang: "sv", text: "Jag valde kaffe igår." }
+        perfect: { lang: "sv", text: "Jag har valt kaffe idag." }
+
+      - en: "to know a fact"
+        common: true
+        infinitive: { lang: "sv", text: "att veta" }
+        imperative: { lang: "sv", text: "vet!" }
+        present: { lang: "sv", text: "Jag vet svaret nu." }
+        past: { lang: "sv", text: "Jag visste svaret igår." }
+        perfect: { lang: "sv", text: "Jag har vetat svaret idag." }
+
+      - en: "to be called"
+        common: true
+        infinitive: { lang: "sv", text: "att heta" }
+        imperative: { lang: "sv", text: "het!" }
+        present: { lang: "sv", text: "Jag heter Anna nu." }
+        past: { lang: "sv", text: "Jag hette Anna förut." }
+        perfect: { lang: "sv", text: "Jag har hetat Anna alltid." }
+
+      - en: "to live, be alive"
+        common: true
+        infinitive: { lang: "sv", text: "att leva" }
+        imperative: { lang: "sv", text: "lev!" }
+        present: { lang: "sv", text: "Jag lever i Sverige nu." }
+        past: { lang: "sv", text: "Jag levde i Sverige igår." }
+        perfect: { lang: "sv", text: "Jag har levat i Sverige länge." }
+
+      - en: "to be able to, can"
+        common: true
+        infinitive: { lang: "sv", text: "att kunna" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag kan simma nu." }
+        past: { lang: "sv", text: "Jag kunde simma igår." }
+        perfect: { lang: "sv", text: "Jag har kunnat simma länge." }
+
+      - en: "to want"
+        common: true
+        infinitive: { lang: "sv", text: "att vilja" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag vill sova nu." }
+        past: { lang: "sv", text: "Jag ville sova igår." }
+        perfect: { lang: "sv", text: "Jag har velat sova idag." }
+
+      - en: "shall, will, going to"
+        common: true
+        infinitive: { lang: "sv", text: "att skola" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag ska resa nu." }
+        past: { lang: "sv", text: "Jag skulle resa igår." }
+        perfect: { lang: "sv", text: "Jag har skolat resa." }
+
+      - en: "ought to, should"
+        common: true
+        infinitive: { lang: "sv", text: "att böra" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag bör vila nu." }
+        past: { lang: "sv", text: "Jag borde vila igår." }
+        perfect: { lang: "sv", text: "Jag har bort vila." }
+
+      - en: "must, have to"
+        common: true
+        infinitive: { lang: "sv", text: "att måste" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag måste gå nu." }
+        past: { lang: "sv", text: "Jag måste gå igår." }
+        perfect: { lang: "sv", text: "Jag har måst gå idag." }
+
+  # ============================================================================
+  # EPISODE 6: Group 6B - Uncommon & Literary Irregular Verbs (10 verbs)
+  # ============================================================================
+  - episode: 6
+    title: "Episode 6: Group 6 Part 2 - Advanced & Literary Irregular Verbs"
+    intro:
+      lang: "en"
+      text: "Episode 6. Group 6, Part 2: Less common, literary, and defective irregular verbs."
+    verbs:
+      - en: "to blow"
+        common: false
+        infinitive: { lang: "sv", text: "att blåsa" }
+        imperative: { lang: "sv", text: "blås!" }
+        present: { lang: "sv", text: "Det blåser kallt nu." }
+        past: { lang: "sv", text: "Det blåste kallt igår." }
+        perfect: { lang: "sv", text: "Det har blåst kallt idag." }
+
+      - en: "to swear"
+        common: false
+        infinitive: { lang: "sv", text: "att svära" }
+        imperative: { lang: "sv", text: "svär!" }
+        present: { lang: "sv", text: "Han svär högt nu." }
+        past: { lang: "sv", text: "Han svor högt igår." }
+        perfect: { lang: "sv", text: "Han har svurit högt idag." }
+
+      - en: "to accustom, wean"
+        common: false
+        infinitive: { lang: "sv", text: "att vänja" }
+        imperative: { lang: "sv", text: "vänj!" }
+        present: { lang: "sv", text: "Jag vänjer mig vid kylan nu." }
+        past: { lang: "sv", text: "Jag vande mig vid kylan igår." }
+        perfect: { lang: "sv", text: "Jag har vant mig vid kylan idag." }
+
+      - en: "to tell, recount"
+        common: false
+        infinitive: { lang: "sv", text: "att förtälja" }
+        imperative: { lang: "sv", text: "förtälj!" }
+        present: { lang: "sv", text: "Sagan förtäljer om kungar nu." }
+        past: { lang: "sv", text: "Sagan förtalde om kungar igår." }
+        perfect: { lang: "sv", text: "Sagan har förtalt om kungar." }
+
+      - en: "to dwell, linger"
+        common: false
+        infinitive: { lang: "sv", text: "att dväljas" }
+        imperative: { lang: "sv", text: "dväljs!" }
+        present: { lang: "sv", text: "Hon dväljs i skogen nu." }
+        past: { lang: "sv", text: "Hon dvaldes i skogen igår." }
+        perfect: { lang: "sv", text: "Hon har dvalts i skogen länge." }
+
+      - en: "to rejoice"
+        common: false
+        infinitive: { lang: "sv", text: "att glädja" }
+        imperative: { lang: "sv", text: "gläd!" }
+        present: { lang: "sv", text: "Det gläder mig nu." }
+        past: { lang: "sv", text: "Det gladde mig igår." }
+        perfect: { lang: "sv", text: "Det har glatt mig idag." }
+
+      - en: "to tread, step"
+        common: false
+        infinitive: { lang: "sv", text: "att träda" }
+        imperative: { lang: "sv", text: "träd!" }
+        present: { lang: "sv", text: "Lagen träder i kraft nu." }
+        past: { lang: "sv", text: "Lagen trädde i kraft igår." }
+        perfect: { lang: "sv", text: "Lagen har trätt i kraft idag." }
+
+      - en: "to bring"
+        common: false
+        infinitive: { lang: "sv", text: "att bringa" }
+        imperative: { lang: "sv", text: "bringa!" }
+        present: { lang: "sv", text: "Nyheten bringar glädje nu." }
+        past: { lang: "sv", text: "Nyheten bragte glädje igår." }
+        perfect: { lang: "sv", text: "Nyheten har bragt glädje idag." }
+
+      - en: "to may, might"
+        common: false
+        infinitive: { lang: "en", text: "Defective modal verb: lacks a standard infinitive." }
+        imperative: { lang: "en", text: "Lacks an imperative form." }
+        present: { lang: "sv", text: "Må det gå dig väl nu." }
+        past: { lang: "sv", text: "Jag måtte ha glömt det igår." }
+        perfect: { lang: "en", text: "Lacks a supine form." }
+
+      - en: "to dare"
+        common: false
+        infinitive: { lang: "sv", text: "att töras" }
+        imperative: { lang: "en", text: "Deponent verb: lacks a standard imperative." }
+        present: { lang: "sv", text: "Jag törs hoppa nu." }
+        past: { lang: "sv", text: "Jag tordes hoppa igår." }
+        perfect: { lang: "sv", text: "Jag har torts hoppa idag." }
