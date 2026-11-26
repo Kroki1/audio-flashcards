@@ -16,19 +16,24 @@ load_dotenv()
 CARTESIA_API_KEY = os.getenv("CARTESIA_API_KEY")
 CARTESIA_URL = "https://api.cartesia.ai/tts/bytes"
 CARTESIA_VERSION = "2025-04-16"
-MODEL_ID = "sonic-3.6"  # Update to "sonic-3" if your account uses the alias
+MODEL_ID = "sonic-3.6"
 
-# Replace these with your chosen Voice IDs from the Cartesia Playground
 VOICE_IDS = {
     "en": "47c38ca4-5f35-497b-b1a3-415245fb35e1",  # Daniel - Modern Assistant (English)
     "sv": "bcdcad6d-4eb6-4a71-89fd-1ae2ce9f95d8",  # Freja - Informative Host (Swedish)
+}
+
+# Speaking speed multiplier: 0.6 (slowest) to 1.5 (fastest), 1.0 = normal
+SPEEDS = {
+    "en": 1.0,
+    "sv": 0.8,  # Slightly slower for clear Swedish pronunciation
 }
 
 # Pause durations in milliseconds
 PAUSES_MS = {
     "after_intro": 1500,        # After episode intro or section transition
     "after_en_prompt": 600,     # English prompt -> Swedish infinitive
-    "between_forms": 500,       # Infinitive -> Imperative -> Present -> Past -> Perfect
+    "between_forms": 600,       # Infinitive -> Imperative -> Present -> Past -> Perfect
     "between_verbs": 1800,      # Perfect -> Next verb's English prompt
 }
 
@@ -54,8 +59,9 @@ def synthesize_speech(text: str, lang: str) -> AudioSegment:
         raise RuntimeError("Missing CARTESIA_API_KEY in environment or .env file.")
 
     voice_id = VOICE_IDS[lang]
+    speed = SPEEDS.get(lang, 1.0)
     cache_key = hashlib.sha256(
-        f"{MODEL_ID}|{voice_id}|{lang}|{SAMPLE_RATE}|{text}".encode("utf-8")
+        f"{MODEL_ID}|{voice_id}|{lang}|{speed}|{SAMPLE_RATE}|{text}".encode("utf-8")
     ).hexdigest()
     cache_path = CACHE_DIR / f"{cache_key}.wav"
 
@@ -75,6 +81,9 @@ def synthesize_speech(text: str, lang: str) -> AudioSegment:
             "id": voice_id,
         },
         "language": lang,
+        "generation_config": {
+            "speed": speed,
+        },
         "output_format": {
             "container": "wav",
             "encoding": "pcm_s16le",
@@ -100,19 +109,16 @@ def build_episode(episode_data: dict) -> Path:
     ep_num = episode_data["episode"]
     print(f"\n--- Building Episode {ep_num}: {episode_data['title']} ---")
 
-    track = silence(500)  # Brief leading buffer
+    track = silence(500)
 
-    # 1. Episode Intro
     intro = episode_data.get("intro")
     if intro:
         print(f"[INTRO - {intro['lang']}] {intro['text']}")
         track += synthesize_speech(intro["text"], intro["lang"])
         track += silence(PAUSES_MS["after_intro"])
 
-    # 2. Iterate through verbs (and any mid-episode section transitions)
     verbs = episode_data.get("verbs", [])
     for idx, item in enumerate(verbs, start=1):
-        # Handle merged-group transition markers (e.g., Group 4 -> Group 5)
         if "section_transition" in item:
             trans = item["section_transition"]
             print(f"\n[TRANSITION - {trans['lang']}] {trans['text']}")
@@ -122,11 +128,9 @@ def build_episode(episode_data: dict) -> Path:
 
         print(f"({idx}/{len(verbs)}) {item['en']} -> {item['infinitive']['text']}")
 
-        # Step A: English prompt
         track += synthesize_speech(item["en"], "en")
         track += silence(PAUSES_MS["after_en_prompt"])
 
-        # Step B: Five grammatical slots in sequence
         slots = ["infinitive", "imperative", "present", "past", "perfect"]
         for slot_idx, slot_name in enumerate(slots):
             slot = item[slot_name]
@@ -137,7 +141,6 @@ def build_episode(episode_data: dict) -> Path:
             else:
                 track += silence(PAUSES_MS["between_verbs"])
 
-    # 3. Export to MP3
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     out_file = OUTPUT_DIR / f"episode_{ep_num:02d}.mp3"
     track.export(out_file, format="mp3", bitrate=MP3_BITRATE)
