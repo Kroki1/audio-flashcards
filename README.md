@@ -10,12 +10,12 @@ Learners hear an English meaning, then the Swedish forms of the verb, spoken wit
 
 | Step | Content | Language | Pause after |
 |------|---------|----------|-------------|
-| 1 | English prompt (e.g. `to write`) | `en` | 600 ms |
-| 2 | Swedish infinitive (`att skriva`) | `sv` | 500 ms |
-| 3 | Imperative (`skriv!`) | `sv` | 500 ms |
-| 4 | Present tense example (`Jag skriver nu.`) | `sv` | 500 ms |
-| 5 | Past tense example (`Jag skrev igår.`) | `sv` | 500 ms |
-| 6 | Perfect tense example (`Jag har skrivit idag.`) | `sv` | 1800 ms |
+| 1 | English prompt (e.g. `to write`) | `en` | 600 ms      |
+| 2 | Swedish infinitive (`att skriva`) | `sv` | 600 ms      |
+| 3 | Imperative (`skriv!`) | `sv` | 600 ms      |
+| 4 | Present tense example (`Jag skriver nu.`) | `sv` | 600 ms      |
+| 5 | Past tense example (`Jag skrev igår.`) | `sv` | 600 ms      |
+| 6 | Perfect tense example (`Jag har skrivit idag.`) | `sv` | 1800 ms     |
 
 Each episode may also start with an English intro, and a spoken section transition may separate verb groups. Pause lengths are configurable because the timing is still being calibrated with the sample set.
 
