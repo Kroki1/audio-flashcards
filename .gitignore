@@ -1,3 +1,18 @@
+# Generated audio and TTS cache
+output/
+.cache_tts/
+*.mp3
+*.wav
+
+# Secrets & environment variables
+.env
+
+# PyCharm / IDE files
+.idea/
+
+# macOS system files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -149,12 +164,13 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
+# Python virtual environment & bytecode
+.venv/
+venv/
+*.py[cod]
 .envrc
 .venv
 env/
-venv/
 ENV/
 env.bak/
 venv.bak/

@@ -1,0 +1,46 @@
+episodes:
+  - episode: 0
+    title: "Calibration Sample: 5 Verbs"
+    intro:
+      lang: "en"
+      text: "Calibration sample. Five Swedish irregular verbs, including one modal verb."
+    verbs:
+      - en: "to write"
+        common: true
+        infinitive: { lang: "sv", text: "att skriva" }
+        imperative: { lang: "sv", text: "skriv!" }
+        present: { lang: "sv", text: "Jag skriver nu." }
+        past: { lang: "sv", text: "Jag skrev igår." }
+        perfect: { lang: "sv", text: "Jag har skrivit idag." }
+
+      - en: "to become"
+        common: true
+        infinitive: { lang: "sv", text: "att bli" }
+        imperative: { lang: "sv", text: "bli!" }
+        present: { lang: "sv", text: "Jag blir glad nu." }
+        past: { lang: "sv", text: "Jag blev glad igår." }
+        perfect: { lang: "sv", text: "Jag har blivit glad idag." }
+
+      - en: "to crawl, creep"
+        common: true
+        infinitive: { lang: "sv", text: "att krypa" }
+        imperative: { lang: "sv", text: "kryp!" }
+        present: { lang: "sv", text: "Barnet kryper på golvet nu." }
+        past: { lang: "sv", text: "Barnet kröp på golvet igår." }
+        perfect: { lang: "sv", text: "Barnet har krupit på golvet idag." }
+
+      - en: "to scream, shout"
+        common: true
+        infinitive: { lang: "sv", text: "att skrika" }
+        imperative: { lang: "sv", text: "skrik!" }
+        present: { lang: "sv", text: "Han skriker högt nu." }
+        past: { lang: "sv", text: "Han skrek högt igår." }
+        perfect: { lang: "sv", text: "Han har skrikit högt idag." }
+
+      - en: "to be able to, can"
+        common: true
+        infinitive: { lang: "sv", text: "att kunna" }
+        imperative: { lang: "en", text: "Modal verb: lacks a true imperative." }
+        present: { lang: "sv", text: "Jag kan simma nu." }
+        past: { lang: "sv", text: "Jag kunde simma igår." }
+        perfect: { lang: "sv", text: "Jag har kunnat simma länge." }
